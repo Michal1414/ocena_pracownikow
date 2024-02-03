@@ -17,29 +17,29 @@ Po poprawnym zalogowaniu użytkownik otrzymuje listę pracowników z jego grupy,
 
 1. Logowanie
 Ten plik odpowiada za autentykację i rejestrację użytkownika. Kluczowe interakcje to:
-- Formularz Logowania: Użytkownicy mogą wprowadzić swój adres e-mail i hasło, aby się zalogować.
-- Formularz Rejestracji: Nowi użytkownicy mogą zarejestrować się, podając swoje imię, nazwisko, adres e-mail, hasło i identyfikator grupy.
-- Obsługa Błędów: Skrypt obsługuje błędy związane z logowaniem i rejestracją, dostarczając informacji zwrotnej dla użytkownika.
-- Przełączanie Między Formularzami Logowania a Rejestracji: Użytkownicy mogą przełączać się między formularzami logowania a rejestracji.
+ - Formularz Logowania: Użytkownicy mogą wprowadzić swój adres e-mail i hasło, aby się zalogować.
+ - Formularz Rejestracji: Nowi użytkownicy mogą zarejestrować się, podając swoje imię, nazwisko, adres e-mail, hasło i  identyfikator grupy.
+ - Obsługa Błędów: Skrypt obsługuje błędy związane z logowaniem i rejestracją, dostarczając informacji zwrotnej dla użytkownika.
+ - Przełączanie Między Formularzami Logowania a Rejestracji: Użytkownicy mogą przełączać się między formularzami logowania a rejestracji.
 
 2. Wystawianie ocen współpracownikom
 Wystawianie ocen współpracownikom obejmuje takie funkcjonalnosci jak:
-- wyskakujace okno z formularzem do wypelnienia: 6 pytan i 1 opis
-- decyzyjnosc uzytkownika kogo bedzie w danej chwili ocenial
+ - wyskakujace okno z formularzem do wypelnienia: 6 pytan i 1 opis
+ - decyzyjnosc uzytkownika kogo bedzie w danej chwili ocenial
 
 4. Wyświetlanie otrzymanych ocen
 W tym pliku interakcje z użytkownikami obejmują wyświetlanie listy pracowników do oceny. Plik wydaje się być częścią systemu ocen pracowników. Główne punkty interakcji to:
-- Wyświetlanie Ikony Pracownika: Skrypt pobiera informacje o użytkownikach i wyświetla ikony dla każdego pracownika. Użytkownicy mogą kliknąć te ikony, aby rozpocząć proces oceny.
-- Formularz Popup do Oceny: Kliknięcie na ikonę pracownika otwiera formularz popup, w którym zalogowany użytkownik może dostarczyć oceny dla wybranego pracownika. Formularz obejmuje pytania i obszar do dostarczenia opisu zwrotnego.
-- Dynamiczne Generowanie Elementów HTML: Plik dynamicznie generuje elementy HTML na podstawie danych pobranych z bazy danych, takie jak ikony pracownika i formularze oceny.
+ - Wyświetlanie Ikony Pracownika: Skrypt pobiera informacje o użytkownikach i wyświetla ikony dla każdego pracownika. Użytkownicy mogą kliknąć te ikony, aby rozpocząć proces oceny.
+ - Formularz Popup do Oceny: Kliknięcie na ikonę pracownika otwiera formularz popup, w którym zalogowany użytkownik może dostarczyć oceny dla wybranego pracownika. Formularz obejmuje pytania i obszar do dostarczenia opisu zwrotnego.
+ - Dynamiczne Generowanie Elementów HTML: Plik dynamicznie generuje elementy HTML na podstawie danych pobranych z bazy danych, takie jak ikony pracownika i formularze oceny.
 
 ## Wersje 
 
-### ver.0.02 Beta - 23.11.2023
 
-Zmiany w tej wersji aktualizuja kod tka aby był zgodny z zasadą KISS
+### ver.0.02 Beta - 20.11.2023
 
 Wprowadzone zminay:
+ - wprowadzenie zsady KISS
  - zamiana pól do wyboru  trybu z checkbox na radio
 
 
@@ -64,3 +64,14 @@ Wprowadzone zmiany:
  - Usuniecie zakomentowanego kodu
  - Usuniecie kodu który za nic nie odpoiadał
  - Usuniecie powtarzajacego się kodu
+
+### ver.0.7 Beta - 16.12.2023
+
+Wprowadzone zmiany:
+ - naprawa błędu: ikony ocenionych pracowników nie przenoszą się do sekcji 'ocenieni pracownicy'
+ - naprawa błędu: dołączanie osób do zespołu czasami nie działa
+
+### ver.0.7 Beta - 04.01.2023
+
+Wprowadzone zmiany:
+ - Dodanie opcji sprawdzania ocen jakie inni wystawili na temat użytkownika zalogowanego
