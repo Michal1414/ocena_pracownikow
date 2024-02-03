@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(187deg, rgba(0,0,0,1) 0%, rgb(0, 2, 41) 80%);
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #150b7d;
+    color: white;
+    z-index: 99;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 2em;
+}
+/* ------------------- nav ------------------- */
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 40px;
+    font-size:1.3em;
+    border: 2px solid #30269f;
+    border-radius: 7px;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color:  #ffffff;
+    color: #000229;
+    transition: .6s;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    padding: 180px 50px 150px 30px;
+}
+h2 {
+    font-size: 1.9em;
+}
+.employee_box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.employee_box .employee-icon {
+    height: 275px;
+    width: 190px;
+    margin: 45px;
+    padding: 20px;
+    border: 2px solid rgb(19, 19, 55);
+    border-radius: 15px;
+    background: rgba(80, 80, 197, 0.5);
+    box-shadow: 0px 0px 19px -4px #d2d2fc;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.employee_box .employee-icon:hover {
+    background-color: rgb(51, 51, 126);
+    cursor: pointer;
+}
+
+.employee_box .employee-icon hr {
+    color: #d2d2fc;
+    margin: 20px 0;
+    width: 100%;
+}
+.employee_box .employee-icon ion-icon {
+    color: #d2d2fc;
+    font-size: 10em;
+}
+.employee_box .employee-icon span {
+    color: #d2d2fc;
+    font-size: 1.4em;
+}
+
+.form_popup{
+    display: none;
+    
+    z-index: 98;
+    width: 65%;
+    min-height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -398px;
+    margin-left: calc(-65%/2);
+    padding: 20px;
+
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 24px -4px #4f526d;
+    border-radius: 20px;
+    overflow: hidden;
+
+    border: 3px solid #81818131;
+}
+.form_popup .exit {
+    position: fixed;
+    top: -2px;
+    right: -2px;
+    height: 50px;
+    width: 50px;
+    background-color: #8289bd;
+    font-size: 1.9em;
+    color: #000229;
+}
+.form_popup .exit:hover {
+    cursor: pointer;
+    background-color: #7278a3;
+}
+.form_popup h2 {
+    width: 100%;
+}
+.form_popup form {
+    font-size: 1.1em;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.questions_box {
+    position: relative;
+    height: 700px;
+    width: 40%;
+    margin: 20px;
+    background-color: #264252d0;
+    padding: 7px;
+}
+.description_box {
+    position: relative;
+    height: 700px;
+    width: 52%;
+    margin: 20px;
+    background-color: #264252d0;
+    float: right;
+    padding: 15px;
+}
+.input_box {
+    margin: 10px 10px 22px 10px;
+}
+.input_box input {
+    color: #ffffff;
+    width: 100%;
+    margin: 10px 0 0 0;
+    line-height: 1.5em;
+
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.description_box #ocena_opis {
+    width: 100%;
+    height: 95%;
+    margin-top: 10px;
+    padding: 20px;
+    color: #000229;
+    font-size: 1.05em;
+    text-wrap: wrap;
+
+    outline: none;
+    border: none;
+    background-color: #ffffffa1;
+    resize: none;
+}
+
+#form-button {
+    width: 100%;
+    font-size: 1.3em;
+    margin: 0 20px;
+    padding: 10px 0;
+
+    outline: none;
+    border: 3px solid #81818131;
+    background-color: #40456e;
+    transition: .3s;
+}
+
+#form-button:hover {
+    cursor: pointer;
+    background-color: #323653;
+}
+
