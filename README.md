@@ -36,21 +36,21 @@ W tym pliku interakcje z użytkownikami obejmują wyświetlanie listy pracownik�
 ## Wersje 
 
 
-### ver.0.02 Beta - 20.11.2023
+### ver.0.02 Beta - 20.11.2024
 
 Wprowadzone zminay:
  - wprowadzenie zsady KISS
  - zamiana pól do wyboru  trybu z checkbox na radio
 
 
-### ver.0.03 Beta - 23.11.2023
+### ver.0.03 Beta - 01.10.2024
 
 Wprowadzone zmiany:
  - Usuniecie zbednych komentarzy
  - Wstawienie pomocnych i opisowych komentarzy do kazdej funkcji
 
 
-### ver.0.04 Beta - 23.11.2023
+### ver.0.04 Beta - 01.11.2024
 
 Wprowadzone zmiany:
  - Zmiana nazw: Funkcji, zminnych w js na nazwy opisujace cel funkcji/zminnej w programe
@@ -58,20 +58,20 @@ Wprowadzone zmiany:
 
 
 
-### ver.0.05 Beta - 23.11.2023
+### ver.0.05 Beta - 01.20.2024
 
 Wprowadzone zmiany:
  - Usuniecie zakomentowanego kodu
  - Usuniecie kodu który za nic nie odpoiadał
  - Usuniecie powtarzajacego się kodu
 
-### ver.0.7 Beta - 16.12.2023
+### ver.0.7 Beta - 01.29.2024
 
 Wprowadzone zmiany:
  - naprawa błędu: ikony ocenionych pracowników nie przenoszą się do sekcji 'ocenieni pracownicy'
  - naprawa błędu: dołączanie osób do zespołu czasami nie działa
 
-### ver.0.7 Beta - 04.01.2023
+### ver.0.7 Beta - 01.02.2024
 
 Wprowadzone zmiany:
  - Dodanie opcji sprawdzania ocen jakie inni wystawili na temat użytkownika zalogowanego
