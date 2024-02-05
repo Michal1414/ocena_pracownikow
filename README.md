@@ -36,21 +36,21 @@ W tym pliku interakcje z użytkownikami obejmują wyświetlanie listy pracownik�
 ## Wersje 
 
 
-### ver.0.02 Beta - 20.11.2024
+### ver.0.02 Beta - 01.11.2024
 
 Wprowadzone zminay:
  - wprowadzenie zsady KISS
  - zamiana pól do wyboru  trybu z checkbox na radio
 
 
-### ver.0.03 Beta - 01.10.2024
+### ver.0.03 Beta - 01.11.2024
 
 Wprowadzone zmiany:
  - Usuniecie zbednych komentarzy
  - Wstawienie pomocnych i opisowych komentarzy do kazdej funkcji
 
 
-### ver.0.04 Beta - 01.11.2024
+### ver.0.04 Beta - 01.12.2024
 
 Wprowadzone zmiany:
  - Zmiana nazw: Funkcji, zminnych w js na nazwy opisujace cel funkcji/zminnej w programe
@@ -58,7 +58,7 @@ Wprowadzone zmiany:
 
 
 
-### ver.0.05 Beta - 01.20.2024
+### ver.0.05 Beta - 01.12.2024
 
 Wprowadzone zmiany:
  - Usuniecie zakomentowanego kodu
@@ -75,3 +75,4 @@ Wprowadzone zmiany:
 
 Wprowadzone zmiany:
  - Dodanie opcji sprawdzania ocen jakie inni wystawili na temat użytkownika zalogowanego
+ - Dodanie opcji usuniecia konta
