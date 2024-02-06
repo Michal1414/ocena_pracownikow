@@ -80,22 +80,22 @@ Wprowadzone zmiany:
 ### ver.0.7 Beta - 06.02.2024
 
 Wprowadzone zmiany:
- - Wykonanie testu  programu za pomocą "Selenium IDE"
+ - Zarpojektowanie i wykonanie testu programu za pomocą "Selenium IDE"
 
    Oczekiwany przebieg testu:
-   1. utworzenie konta za pomoca danych: test1, test1, test1, test@test1, 123, 123, 123
-   2. wylogowanie z konta 'test1'
-   3. utworzenie konta za pomoca danych: test2, test2, test2, test@test2, 123, 123, 123
-   4. sprawdzenie czy 'test2' i 'test1' zostal poprawnie przypisany do grupy poprzez nacisniecie ikony podpisanej 'test1'
-   5. wypelnienie formularza ocenowego
-   6. przeslanie oceny
-   7. sprawdzenie czy ikona podpisana 'test1' zostala przeniesiona do zakladki "Ocenieni pracownicy"
-   8. wylogowanie z konta 'test2'
-   9. zalogowanie na konto 'test1'
-   10. przejscie na strone "MojeOceny"
-   11. sprawdzenie czy istnieje ocena wystawiona przez 'test2'
-   12. usuniecie konta 'test1'
-   13. zalogowanie na konto 'test2'
-   14. usuniecie konta 'test2'
+   1. Utworzenie konta za pomoca danych: test1, test1, test1, test@test1, 123, 123, 123
+   2. Wylogowanie z konta 'test1'
+   3. Utworzenie konta za pomoca danych: test2, test2, test2, test@test2, 123, 123, 123
+   4. Sprawdzenie czy 'test2' i 'test1' zostal poprawnie przypisany do grupy poprzez nacisniecie ikony podpisanej 'test1'
+   5. Wypelnienie formularza ocenowego
+   6. Przeslanie oceny
+   7. Sprawdzenie czy ikona podpisana 'test1' zostala przeniesiona do zakladki "Ocenieni pracownicy"
+   8. Wylogowanie z konta 'test2'
+   9. Zalogowanie na konto 'test1'
+   10. Przejście na stronę "MojeOceny"
+   11. Sprawdzenie czy istnieje ocena wystawiona przez 'test2'
+   12. Usuniecie konta 'test1'
+   13. Zalogowanie na konto 'test2'
+   14. Usuniecie konta 'test2'
 
 Test wykonuje sie poprawnie na aktualnej wersji
