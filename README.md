@@ -99,3 +99,11 @@ Wprowadzone zmiany:
    14. Usuniecie konta 'test2'
 
 Test wykonuje sie poprawnie na aktualnej wersji
+
+### ver.0.7.5 - 06.03.2024
+
+Dodanie rangi uzytkownika "Lider zespolu"
+Aby uzytkownik uzyskał rangę lidera podczas zakładania konta musi wpisac na w polu imie: swojeimie oraz "=XXX"
+Głownym założeniem rangi "Lider zespołu" jest to aby uzytkownik z takimi uprawniniami miał wgląd do wszystkich ocen wystawionych przez wspópracowników
+
+Test wykonuje sie poprawnie na aktualnej wersji
