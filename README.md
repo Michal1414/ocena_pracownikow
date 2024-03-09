@@ -107,3 +107,10 @@ Aby uzytkownik uzyskał rangę lidera podczas zakładania konta musi wpisac na w
 Głownym założeniem rangi "Lider zespołu" jest to aby uzytkownik z takimi uprawniniami miał wgląd do wszystkich ocen wystawionych przez wspópracowników
 
 Test wykonuje sie poprawnie na aktualnej wersji
+
+
+### ver.0.7.6 - 08.03.2024
+
+Naprawa łędu powstałego w wesji 0.7.5. Błąd polegał na tym że na stronie MojeOceny nieważne jaką ocenę wybrał użytkownik wyświetlała sie ta sama ocena.
+
+Test wykonuje sie poprawnie na aktualnej wersji
