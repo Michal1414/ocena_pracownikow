@@ -100,6 +100,7 @@ Wprowadzone zmiany:
 
 Test wykonuje sie poprawnie na aktualnej wersji
 
+
 ### ver.0.7.5 - 06.03.2024
 
 Dodanie rangi uzytkownika "Lider zespolu"
@@ -114,3 +115,11 @@ Test wykonuje sie poprawnie na aktualnej wersji
 Naprawa łędu powstałego w wesji 0.7.5. Błąd polegał na tym że na stronie MojeOceny nieważne jaką ocenę wybrał użytkownik wyświetlała sie ta sama ocena.
 
 Test wykonuje sie poprawnie na aktualnej wersji
+
+
+### ver.0.7.6 - 08.03.2024
+
+Ukończnie rangi "TeamLeader" - lide ma wgląd do wszystkich ocen oraz ma możliwość zobaczyć zawartosc ocen
+
+Test wykonuje sie poprawnie na aktualnej wersji
+
