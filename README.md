@@ -117,7 +117,7 @@ Naprawa łędu powstałego w wesji 0.7.5. Błąd polegał na tym że na stronie 
 Test wykonuje sie poprawnie na aktualnej wersji
 
 
-### ver.0.7.6 - 08.03.2024
+### ver.0.8 - 09.03.2024
 
 Ukończnie rangi "TeamLeader" - lide ma wgląd do wszystkich ocen oraz ma możliwość zobaczyć zawartosc ocen
 
